@@ -141,7 +141,7 @@ a.mCb i {
   letter-spacing: 0.5px;
   color: #000000;
 }
-.fa-solid {
+.forPosition {
   position: absolute;
   color: #ffffff;
   font-size: 24px;
@@ -160,9 +160,37 @@ a.mCb i {
   transform: translateY(-50%);
   cursor: pointer;
 }
+.bannerContent{
+padding-top: 96px;
+padding-bottom: 97px;
+}
 .imgPadding {
-  padding-top: 96px;
-  padding-bottom: 97px;
+  position: relative;
+}
+.imgOverlay{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 27%;
+  gap: 8px;
+  padding: 18px 17px ;
+  background: #FFFFFF;
+  width: 226px;
+  border-radius: 8px;
+
+}
+.imgOverlaySecond{
+  position: absolute;
+  top: 57%;
+  right: 0;
+
+
+}
+.imgOverlay h5{
+  font-size: 18px;
+  font-weight: 600;
+  color: #242B36;
 }
 .tagBtn {
 
@@ -187,12 +215,13 @@ a.mCb i {
 }
 
 
+
 /* ?Banner Part End */
 
 /* ?Popular Categories Part Start */
 
 #PopularCategories {
-  padding: 120px 0;
+  padding-top: 120px;
 }
 
 .CategoriesText h3{
@@ -235,65 +264,342 @@ a.mCb i {
   
 }
 
-/* ?PortFolio Part End */
+/* ?Popular Categories part End */
 
 /* ?Service Part Start */
 #servicePart {
-  margin: 138px 0;
+ margin-top: 120px; 
+  padding: 120px 0;
+  background: rgba(0, 116, 85, 0.05);
 }
-
-.serviceText {
-  width: 639px;
-  text-align: center;
+.serviceHead h3 {
+  color: #242b36;
 }
-.serviceText h6 {
+.serviceFilterBtn button {
+  border: 1px solid rgba(65, 125, 110, 0.2);
+  padding: 10px 18px;
+  background: transparent;
+  border-radius: 8px;
+  transition: all linear 0.4s;
+}
+.serviceFilterBtn button:hover {
+  background: #fff;
+}
+.serviceItem {
+  padding: 16px;
+  background: #fff;
+  border-radius: 16px;
+}
+.servicecImg {
+  position: relative;
+}
+.round {
+  height: 36px;
+  width: 36px;
+  background: #fff;
+  border-radius: 50%;
+  position: absolute;
+  right: 12px;
+  top: 12px;
+}
+.heartC {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.servicetext {
+  border-bottom: 1px solid rgba(27, 33, 41, 0.1);
+}
+.servicetext h4 {
+  color: #414e62;
   font-size: 16px;
   font-weight: 400;
-  line-height: 26px;
-  letter-spacing: 1.5px;
-  color: #5e3bee;
+}
+.servicetext h3 {
+  color: #242b36;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+}
+.profileLeft {
+  display: flex;
+}
+.profileLeft h3 {
+  margin-left: 10px;
 }
 
-.serviceText h2 {
-  font-size: 44px;
-  font-weight: 600;
-  line-height: 56px;
-  letter-spacing: 1.5px;
-  color: #000000;
+.prev {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  color: #fff;
+  font-size: 20px;
+  z-index: 9999;
 }
 
-.serviceText p {
+.next {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  color: #fff;
+  font-size: 20px;
+}
+.review,span,a{
   font-size: 16px;
+  color: #3B4759;
+
+}
+.review i {
+  color: #ffb400;
+  font-size: 16px;
+  margin-right: 4px;
+  padding-bottom: 12px;
+
+}
+.servicetext h4{
+  padding-top: 12px;
+}
+.servicetext h3{
+  padding: 12px 0;
+}
+
+.profileLeft{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  
+}
+.profileLeft h3,h4{
+  color: #242B36;
+  font-size: 16px;
+  font-weight: 500;
+  
+}
+.profileLeft h4{
+  color: #414E62;
+  font-size: 16px;
+  font-weight: 500;
+  
+}
+.priceBold{
   font-weight: 600;
-  line-height: 32px;
-  letter-spacing: 0.5px;
-  color: rgba(0, 0, 0, 0.7);
+  color: #242B36;
+}
+.showsBtn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.editBtn{
+  background: #007456;
+  color: #fff;
 }
 
-.boxOnee {
-  background-color: #ffffff;
-  box-shadow: 37px 37px 80px rgba(0, 0, 0, 0.1);
-  text-align: center;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  padding-left: 71px;
-  padding-right: 62px;
-  border-radius: 10px;
-  margin-top: 64px;
-}
+/* ?Service Part End */
 
-.boxOnee h3 {
+/* ?Latest Job Part Start */
+.LatestJob {
+ padding-top: 120px;
+}
+.jobItem{
+  width: 424px;
+  padding: 32px 24px;
+  background-color: #FFFFFF;
+  border: 1px solid rgba(27, 33, 41, 0.10);
+  border-radius: 16px;
+
+}
+.jobItem h4{
   font-size: 20px;
-  line-height: 32px;
-  letter-spacing: 0.5px;
-  padding-bottom: 10px;
+  font-weight: 500;
+  color: #242B36;
+  line-height: 28px;
 }
-.boxOnee p {
+.jobText h4{
+font-size: 16px;
+color: #414E62;
+font-weight: 400;
+}
+.jobDot{
+  color: #FA8C00;
+  font-size: 6px;
+}
+.jobLevel{
+  font-size: 16px;
+  color: #242B36;
+  font-weight: 600;
+}
+.jobBtnDiv{
+  padding: 16px 0;
+}
+.jobMony h4{
   font-size: 20px;
-  line-height: 32px;
-  letter-spacing: 0.5px;
+  color: #242B36;
+  font-weight: 600;
+}
+.jobType{
+  font-size: 14px;
+  padding: 6px 14px;
+  background: #ECEDEF;
+  color: #3B4759;
+  font-weight: 400;
+  border-radius: 50px;
+}
+.jobPosted h5{
+  font-size: 16px;
+  color: #414E62;
+}
+.jobDitails p{
+  font-size: 16px;
+  color: #3B4759;
+  line-height: 24px;
+  font-weight: 400;
+  padding-top: 16px;
 }
 
+.jobBtn{
+  padding: 6px 14px;
+  background: transparent;
+  border: 1px solid #C4C8CE;
+  border-radius: 50px;
+  margin: 8px 0 0 6px;
+  
+}
+.viewMore{
+  color: #007456;
+  background: transparent;
+  border: 1px solid #C4C8CE;
+  border: none;
+  padding: 16px 0 0 16px;
+  font-size: 14px;
+  font-weight: 600;
+}
+/* ?Latest Job Part End */
+
+/* ?Hiring Part Start */
+.hireSection{
+  position: relative;
+  margin: 150px 0;
+}
+.backOverlay{
+
+    position: absolute;
+    width: 1283px;
+    padding: 362px 0;
+    background: #F2F8F7;
+    z-index: -1;
+    top: 0;
+    border-radius: 16px;
+}
+    .hire-left {
+      flex: 1;
+      margin-top: 237px;
+    }
+
+    .hire-left h2 {
+      font-size: 36px;
+      font-weight: 600;
+      margin-bottom: 30px;
+      color: #242B36;
+    }
+
+    .feature {
+      display: flex;
+      align-items: flex-start;
+      gap: 15px;
+      margin-bottom: 25px;
+    }
+ 
+     .feature i {
+      font-size: 22px;
+      color: #333;
+      margin-top: 4px;
+    } 
+
+    .feature-content h4 {
+      font-size: 18px;
+      font-weight: 600;
+      margin-bottom: 5px;
+      color: #111;
+    }
+
+    .feature-content p {
+      font-size: 15px;
+      color: #555;
+      line-height: 1.6;
+    }
+
+    .hire-right {
+      flex: 1;
+    }
+
+    .hire-right img {
+      width: 100%;
+      border-radius: 12px;
+      object-fit: cover;
+    }
+    .hireRight{
+      margin-top: 126px;
+    }
+/* ?Hiring Part End */
+
+/* ?Freelancer thought */
+.thoughtItem{
+  width: 424px;
+  padding: 20px 18px;
+  background: #FFFFFF;
+
+}
+
+.thoughtName h4{
+  font-size: 18px;
+  font-weight: 600;
+  color: #242B36;
+  padding-top: 8px;
+}
+.thoughtName h5{
+  font-size: 14px;
+  font-weight: 400;
+  color: #414E62;
+  padding-top: 2px;
+}
+.thoughtContent p{
+  font-size: 16px;
+  font-weight: 400;
+  color: #3B4759;
+  line-height: 24px;
+  padding-top: 24px;
+
+}
+.thoughtRating{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  width: 40px;
+  height: 40px;
+  background: #ECEDEF;
+  border-radius: 50%;
+
+}
+
+/* .thoughtRating{
+  color: #ffb400;
+  font-size: 16px;
+  margin-top: 8px;
+} */
+
+/* ?Freelancer thought End */
+
+/* ?Header Part Start */
+/* ?Header Part End */
+
+/* ?Header Part Start */
 /* ?Header Part End */
 
 /* ?Header Part Start */
