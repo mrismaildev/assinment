@@ -910,8 +910,113 @@ h4 {
     rgba(0, 116, 86, 0.1) 0%,
     rgba(250, 140, 0, 0.1) 100%
   );
+  border-radius: 24px;
 }
+
+.startBody h4{
+font-size: 36px;
+font-weight: 600;
+color: #242B36;
+padding-bottom: 24px;
+text-align: center;
+}
+.startBody p{
+  text-align: center;
+font-size: 16px;
+font-weight: 400;
+color: #414E62;
+line-height: 24px;
+}
+.projectBtn{
+  margin-top: 42px;
+}
+.startBtn{
+ margin: auto;
+  background: transparent;
+  background-color:#FA8C00;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 8px;
+  color: #FFFFFF;
+}
+.stratBtn i{
+  color: #FFFFFF;
+}
+.btnFlexIcon{
+  display: flex;
+}
+
 /* ?Header Part End */
 
 /* ?Header Part Start */
+.forColor{
+  background-color: rgba(0, 0, 0, 0.96);
+  margin-top: 120px;
+}
+.footerBox{
+padding: 120px 0;
+border-bottom: 1px solid #414E62;
+}
+.footerCol h3{
+font-size: 24px;
+font-weight: 500;
+color: #FFFFFF;
+padding-bottom: 32px;
+}
+.footerCol ul li {
+  margin-bottom: 10px;
+}
+.footerCol ul li a {
+  color:#C4C8CE;
+}
+
+.footerCol p {
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 15px;
+  color: #C4C8CE;
+}
+.subscribeForm {
+  position: relative;
+}
+.subscribeForm input {
+  width: 100%;
+  padding: 16px;
+  border: none;
+  outline: none;
+  background: #242B36;
+  color: #C4C8CE;
+  border-radius: 8px;
+}
+.subscribeForm button {
+  position: absolute;
+  background: #ECEDEF;
+  border: none;
+  color: #242B36;
+  width: 52px;
+  height: 52px;
+  top: 2px;
+  right: 2px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.footerBottom{
+  padding: 42px 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr auto;
+}
+
+.copyRight p{
+color: #FFFFFF;
+font-size: 16px;
+}
+.socialsBox{
+  width: 24px;
+  height: 24px;
+  background: #FFFFFF;
+  padding: 5px  9px ;
+  border-radius: 4px;
+}
 /* ?Header Part End */
