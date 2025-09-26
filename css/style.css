@@ -15,14 +15,16 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,p {
   margin: 0;
   padding: 0;
   line-height: 0.8;
 }
 ul,
-ol {
+ol,li {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 body {
   font-family: 'Poppins', sans-serif;
@@ -549,13 +551,34 @@ font-weight: 400;
 /* ?Hiring Part End */
 
 /* ?Freelancer thought */
+.freelancerThought{
+  margin-top: 220px;
+  position: relative;
+}
+.rectAngelPosition{
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  z-index: -1;
+}
+.sectionTitle{
+  width: 582px;
+  margin: auto;
+  font-size: 36px;
+}
+.sectionTitle h3{
+  font-size: 36px;
+  line-height: 44px;
+}
 .thoughtItem{
   width: 424px;
   padding: 20px 18px;
-  background: #FFFFFF;
+  background:#FFFFFF;
+  border-radius: 12px;
+  box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.08);
 
 }
-
 .thoughtName h4{
   font-size: 18px;
   font-weight: 600;
@@ -588,24 +611,251 @@ font-weight: 400;
 
 }
 
-/* .thoughtRating{
-  color: #ffb400;
-  font-size: 16px;
-  margin-top: 8px;
-} */
 
 /* ?Freelancer thought End */
 
 /* ?Header Part Start */
+.forMargin{
+  margin-top: 220px;
+}
+/* ?trending Part End */
+.trendingTitle {
+padding:120px 0 40px 0;
+}
+.trendingTitle h3{
+color: #242B36;
+font-size: 36px;
+font-weight: 600;
+}
+.trendingPart{
+  margin-top: 120px;
+  background: #F2F8F7;
+}
+.serviceSlick{
+  position: relative;
+  padding-bottom: 100px;
+}
+.prevSeond{
+     display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 57px;
+  background: #FFFFFF;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 999;
+  top: 50%;
+  left: -17px;
+  transform: translateY(-50%);
+  font-size: 25px;
+  transition: .5s;
+}
+.nextSecond{
+     display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 57px;
+  background: #FFFFFF;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 999;
+  top: 50%;
+  right: -17px;
+  transform: translateY(-50%);
+  font-size: 25px;
+  transition: .5s;
+}
+
+.prevSeond:hover{
+background: #FA8C00;
+color: #FFFFFF;
+}
+
+.nextSecond:hover{
+background: #FA8C00;
+color: #FFFFFF;
+}
+
+/* ?trending Part Start */
+
+.choosePlanPart{
+  padding: 100px;
+}
+.planItem{
+  width: 424px;
+  padding:24px;
+  background-color: #FFFFFF;
+  border: 1px solid #C4C8CE;
+  border-radius: 12px;
+  margin-top: 60px;
+}
+.planHead {
+ padding: 12px 0 16px 0;
+}
+.planHead h4{
+  font-size: 20px;
+  font-weight: 500;
+  color: #242B36;
+}
+
+.planHead h5{
+  font-size: 28px;
+  font-weight: 500;
+  color: #414E62;
+  padding-top: 12px;
+}
+.jero{
+  color: #414E62;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+}
+.planContent p{
+font-size: 16px;
+color: #414E62;
+font-weight: 400;
+
+}
+.planBtn{
+  text-align: center;
+  padding: 10px 0;
+  background: #007456;
+  color: #FFFFFF;
+  border-radius: 8px;
+}
+.planBtn a{
+  color: #FFFFFF;
+ }
+ .planInclude h4{
+  padding: 24px 0;
+  font-size: 16px;
+  font-weight: 500;
+  color: #242B36;
+ }
+ .planInclude i{
+  color: #FA8C00;
+  font-size: 20px;
+  margin-right: 8px;
+ }
+ .planInclude ul li{
+  padding: 0 0 16px 8px;
+  font-size: 16px;
+  color: #3B4759;
+  font-weight: 400;
+ }
+
 /* ?Header Part End */
 
 /* ?Header Part Start */
+.serviceByCategory{
+  padding: 120px 0px;
+  background-color: #F2F8F7;
+}
+.serviceList{
+  margin-top: 40px;
+}
+.serviceListItem{
+  width: 312px;
+position: relative;
+ 
+}
+.serviceListText{
+  position: absolute;
+  top: 25px;
+  left: 24px;
+}
+.serviceListText h5{
+  font-size: 16px;
+   color: #FFFFFF;
+
+}
+.serviceListText h4{
+  font-size: 20px;
+  font-weight: 500;
+   color: #FFFFFF;
+}
 /* ?Header Part End */
 
-/* ?Header Part Start */
-/* ?Header Part End */
 
 /* ?Header Part Start */
+.forPadding{
+  padding-bottom: 120px;
+}
+.CategoriesTextRight{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-top: 120px;
+  
+}
+.profileCard{
+  width: 424px;
+  padding: 32px 0 32px 32px;
+  background: teal;
+  border-radius: 12px;
+  border: 1px solid #C4C8CE;
+}
+.profileHeader{
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.inProfile{
+  position: relative;
+}
+.vettedPro{
+  padding: 4px 6px;
+  background: rgba(0, 116, 85, 0.15);
+  border-radius: 100px;
+  color: #007456;
+  font-size: 14px;
+  font-weight: 600;
+}
+.inProfile h3{
+  font-size: 20px;
+  font-weight: 600;
+  color: #242B36;
+}
+.vettedPro::after {
+    position: absolute;
+    content: "";
+    width: 2px;
+    height: 21px;
+    background: #A8AEB7;
+    top: 50%;
+    right: 98px;
+    transform: translateY(-50%);
+}
+.portfolioRating{
+  padding: 10px 0;
+}
+.skills {
+  margin: 15px 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+
+}
+
+.skills span {
+  background: #ECEDEF;
+  padding: 6px 12px;
+  border-radius: 8px;
+  font-size: 13px;
+  cursor: default;
+  color: #3B4759;
+}
+.flexInfo{
+  display: flex;
+  align-items: center;
+  gap: 30%;
+}
+.viewDitles{
+  margin-top: 24px;
+}
+
 /* ?Header Part End */
 
 /* ?Header Part Start */
