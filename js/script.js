@@ -18,6 +18,33 @@ $('.serviceSlick').slick({
   autoplaySpeed: 2000,
   prevArrow: '<i class="fa-solid fa-arrow-left prevSeond"></i>',
   nextArrow: '<i class="fa-solid fa-arrow-right nextSecond"></i>',
+   responsive: [
+    {
+      breakpoint: 990,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        infinite: true,
+        
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2
+      }
+    },
+    {
+      breakpoint: 520,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+  ],
+  
+   
 });
 
 $('.serviceSlickThree').slick({
@@ -25,6 +52,30 @@ $('.serviceSlickThree').slick({
   slidesToScroll: 1,
   autoplay: true,
   autoplaySpeed: 2000,
-  prevArrow: '<i class="fa-solid fa-arrow-left prevSeond"></i>',
-  nextArrow: '<i class="fa-solid fa-arrow-right nextSecond"></i>',
+  prevArrow: '<i class="fa-solid fa-arrow-left prevSeond thirdPriv"></i>',
+  nextArrow: '<i class="fa-solid fa-arrow-right nextSecond thirdNext"></i>',
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        infinite: true,
+      },
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2,
+      },
+    },
+    {
+      breakpoint: 520,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1,
+      },
+    },
+  ],
 });

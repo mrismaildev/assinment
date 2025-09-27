@@ -1,0 +1,867 @@
+/*? Extra large devices (large desktops, 1200px and up) */
+/* @media (min-width: 1200px) { ... } */
+
+/*? Large devices (desktops, 992px and up) */
+/* @media (min-width: 992px) and (max-width: 1199.98px) { ... } */
+
+/*? Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+/*? Navbar Responsive design start */
+  .navbar-toggler i {
+    color: green;
+    font-size: 30px;
+  }
+  .navbar-toggler i:active {
+    color: red;
+  }
+  .nav-link {
+    color: red;
+    margin: 0;
+    font-weight: bold;
+  }
+  /*? Navbar Responsive design End */
+
+  /* ?Banner Part Responsive Start  */
+  .bannerContent {
+    padding-top: 30px;
+  }
+  .textLeft {
+    width: auto;
+    text-align: center;
+  }
+  .textLeft h1 {
+    font-size: 37px;
+    line-height: 51px;
+    font-weight: bold;
+  }
+  .textLeft h6 {
+    font-size: 14px;
+  }
+  .textLeft a.button {
+    display: block;
+    margin-bottom: 10px;
+  }
+  .inputBox {
+    padding: 16px 0;
+  }
+  .formControl {
+    height: 52px;
+  }
+  .searchDiv {
+    width: 40px;
+    height: 40px;
+    right: 12px; 
+  }
+  .forPosition {
+    font-size: 18px; 
+  }
+  .imgPadding {
+    margin-top: 89px;
+  }
+  .bannerContent {
+    padding-bottom: 47px;
+  }
+  .imgOverlay {
+    top: 27%;
+    padding: 10px 23px;
+    width: 172px;
+  }
+
+  .imgOverlaySecond {
+    position: absolute;
+    top: 65%;
+    right: 0;
+  }
+  .imgOverlay h5 {
+    font-size: 10px;
+    font-weight: 600;
+    color: #242b36;
+  }
+
+  /* ?Banner Part Responsive End  */
+
+  /* ?Popular Categories Part Start  */
+  #PopularCategories {
+    padding-top: 43px;
+  }
+  .forGrid{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .CategoriesText h3 {
+    color: #242b36;
+    font-size: 36px;
+    font-weight: 700;
+    padding-bottom: 0;
+  }
+  .CategoriesTextRight {
+    margin-top: 31px;
+  }
+  .listCatagory p,
+  h5 {
+    font-size: 18px;
+
+    line-height: 25px;
+  }
+  .listCatagory h4 {
+    font-size: 22px;
+  }
+
+  /* ?Poppular Service Item Responsive Part start */
+  #servicePart {
+    margin-top: 93px;
+    padding: 39px 0;
+  }
+  .popularServiceGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+ 
+  .serviceFilterBtn {
+    margin-top: 20px;
+  }
+  .serviceHead h3 {
+    color: #242b36;
+    font-size: 39px;
+    font-weight: bold;
+  }
+  .serviceItem {
+   width: 335px;
+    margin-top: 20px;
+  }
+  .servicetext h3 {
+    font-size: 13px;
+    line-height: 19px;
+  }
+  .review, span, a {
+	font-size: 12px;
+	color: #3b4759;
+}
+.profileLeft h3, h4 {
+	font-size: 14px;
+	
+}
+.profileLeft  h4 {
+	font-size: 9px;
+
+}
+
+  /* ?Service Item Responsive Part End */
+
+  /*?Letest Job Part Responsive Star */
+  .letestGridRow{ 
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  }
+  .LatestJob {
+    padding-top: 47px;
+  }
+  .jobItem {
+    width: 100%;
+  }
+
+  /*? Letest Job part Responsive End  */
+
+  /* ?Hiring Best  Part Responsive Start  */
+  .hireSection {
+    margin: 57px 0;
+  }
+  .hire-left {
+    margin-top: 60px;
+  }
+  .hire-left h2 {
+    font-size: 40px;
+    text-align: center;
+    line-height: initial;
+  }
+  .hireRight {
+    margin-top: 33px;
+  }
+  /* ?Hiring Best  Part Responsive End  */
+
+  /* ?Freelancer thought Responsive Part Start */
+   .thoughtGrid{
+display: grid;
+grid-template-columns: repeat(2,1fr);
+  }
+  .freelancerThought {
+    margin-top: 54px;
+    position: relative;
+  }
+  .sectionTitle {
+    width: 100%;
+  }
+  .sectionTitle h3 {
+    font-size: 41px;
+    line-height: 44px;
+    font-weight: bold;
+  }
+  .thoughtItem {
+    width: 100%;
+  }
+  .thoughtContent p {
+    font-size: 13px;
+  }
+  /* ?Freelancer thought Responsive Part End */
+
+  /* ?Advertise Part Responsive  Start  */
+  .forMargin {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 90px;
+  }
+  .advertiseContent {
+    margin-top: 20px;
+  }
+  /* ?Advertise Part Responsive  End  */
+  /* ?Trending Service Responsive  */
+  
+.nextSecond {
+	width: 30px;
+	height: 30px;
+	top: 31%;
+	right: 0;
+	font-size: 16px;
+	transition: 0.5s;
+}  
+.prevSeond {
+	width: 30px;
+	height: 30px;
+	top: 31%;
+	right: 0;
+	font-size: 16px;
+	transition: 0.5s;
+}
+  /* ?Trending Service Responsive  */
+
+  /* ?Choose Plan Part Responsive Start  */
+  .chooseGrid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  }
+  .choosePlanPart {
+    padding: 45px;
+  }
+  .planItem {
+    width: 100%;
+  }
+  .choosePlanPart {
+    padding: 0px;
+  }
+  .planTitle h3 {
+    padding-top: 20px;
+    font-size: 32px;
+    font-weight: bold;
+  }
+  .planItem {
+    margin-top: 37px;
+  }
+  /* ?Choose Plan  Part Responsive End  */
+  /*?Browsr By Catargory  start*/
+
+  .thirdPriv{
+    top: 50%;
+     left: -30px;
+  }
+  .thirdNext{
+    top: 50%;
+   
+  }
+  /*?Browsr By Catargory  End*/
+
+  /*  ?Top Rated Frilancer Responsive start */
+  .reatingGrid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    row-gap: 20px;
+  }
+  .profileCard {
+	width: 100%;
+}
+.inProfile h3 {
+	font-size: 13px;;
+}
+.flexInfo span {
+	font-size: 13px;
+}
+
+  /*  ?Top Rated Frilancer Responsive End */
+
+  /*?Start a work Responsive part  */
+  .workStart {
+	padding: 103px;
+
+}
+.startBody p{font-size: 15px
+}
+/* ?Footer Responsive Part Start  */
+.footerBox{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+
+}
+.subscribeForm input {
+	width: 213px;
+	padding: 12px;
+}
+.subscribeForm button {
+	width: 42px;
+	height: 46px;
+}
+/* ?Footer Responsive Part End  */
+
+
+
+}
+/*?Start a work Responsive End  */
+/*? Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /*? Navbar Responsive design start */
+  .navbar-toggler i {
+    color: green;
+    font-size: 30px;
+  }
+  .navbar-toggler i:active {
+    color: red;
+  }
+  .nav-link {
+    color: red;
+    margin: 0;
+    font-weight: bold;
+  }
+  /*? Navbar Responsive design End */
+
+  /* ?Banner Part Responsive Start  */
+  .bannerContent {
+    padding-top: 30px;
+  }
+  .textLeft {
+    width: auto;
+    text-align: center;
+  }
+  .textLeft h1 {
+    font-size: 37px;
+    line-height: 51px;
+    font-weight: bold;
+  }
+  .textLeft h6 {
+    font-size: 14px;
+  }
+  .textLeft a.button {
+    display: block;
+    margin-bottom: 10px;
+  }
+  .inputBox {
+    padding: 16px 0;
+  }
+  .formControl {
+    height: 52px;
+  }
+  .searchDiv {
+    width: 40px;
+    height: 40px;
+    right: 12px; /* একটু ভেতরে */
+  }
+  .forPosition {
+    font-size: 18px; /* আইকনও একটু ছোট হবে */
+  }
+  .imgPadding {
+    margin-top: 89px;
+  }
+  .bannerContent {
+    padding-bottom: 47px;
+  }
+  .imgOverlay {
+    top: 27%;
+    padding: 10px 23px;
+    width: 172px;
+  }
+
+  .imgOverlaySecond {
+    position: absolute;
+    top: 65%;
+    right: 0;
+  }
+  .imgOverlay h5 {
+    font-size: 10px;
+    font-weight: 600;
+    color: #242b36;
+  }
+
+  /* ?Banner Part Responsive End  */
+
+  /* ?Popular Categories Part Start  */
+  #PopularCategories {
+    padding-top: 43px;
+  }
+  .CategoriesText h3 {
+    color: #242b36;
+    font-size: 36px;
+    font-weight: 700;
+    padding-bottom: 0;
+  }
+  .CategoriesTextRight {
+    margin-top: 31px;
+  }
+  .listCatagory p,
+  h5 {
+    font-size: 18px;
+
+    line-height: 25px;
+  }
+  .listCatagory h4 {
+    font-size: 22px;
+  }
+  /* ?Service Item Responsive Part start */
+  #servicePart {
+    margin-top: 93px;
+    padding: 39px 0;
+  }
+  .serviceFilterBtn {
+    margin-top: 20px;
+  }
+  .serviceHead h3 {
+    color: #242b36;
+    font-size: 39px;
+    font-weight: bold;
+  }
+  .serviceItem {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .servicetext h3 {
+    font-size: 13px;
+    line-height: 19px;
+  }
+  .review, span, a {
+	font-size: 12px;
+	color: #3b4759;
+}
+.profileLeft h3, h4 {
+	font-size: 14px;
+	
+}
+.profileLeft  h4 {
+	font-size: 9px;
+
+}
+
+  /* ?Service Item Responsive Part End */
+
+  /*?Letest Job Part Responsive Star */
+  .LatestJob {
+    padding-top: 47px;
+  }
+  .jobItem {
+    width: 506px;
+  }
+
+  /*? Letest Job part Responsive End  */
+
+  /* ?Hiring Best  Part Responsive Start  */
+  .hireSection {
+    margin: 57px 0;
+  }
+  .hire-left {
+    margin-top: 60px;
+  }
+  .hire-left h2 {
+    font-size: 40px;
+    text-align: center;
+    line-height: initial;
+  }
+  .hireRight {
+    margin-top: 33px;
+  }
+  /* ?Hiring Best  Part Responsive End  */
+
+  /* ?Freelancer thought Responsive Part Start */
+  .freelancerThought {
+    margin-top: 54px;
+    position: relative;
+  }
+  .sectionTitle {
+    width: 100%;
+  }
+  .sectionTitle h3 {
+    font-size: 41px;
+    line-height: 44px;
+    font-weight: bold;
+  }
+  .thoughtItem {
+    width: 100%;
+  }
+  .thoughtContent p {
+    font-size: 13px;
+  }
+  /* ?Freelancer thought Responsive Part End */
+
+  /* ?Advertise Part Responsive  Start  */
+  .forMargin {
+    margin-top: 90px;
+  }
+  .advertiseContent {
+    margin-top: 20px;
+  }
+  /* ?Advertise Part Responsive  End  */
+
+  /* ?Choose Plan Part Responsive Start  */
+  .choosePlanPart {
+    padding: 45px;
+  }
+  .planItem {
+    width: 100%;
+  }
+  .choosePlanPart {
+    padding: 0px;
+  }
+  .planTitle h3 {
+    padding-top: 20px;
+    font-size: 32px;
+    font-weight: bold;
+  }
+  .planItem {
+    margin-top: 37px;
+  }
+  /* ?Choose Plan  Part Responsive End  */
+
+  /* ?Service By Category Responsive Start  */
+  .serviceListItem {
+    width: 98%;
+    position: relative;
+  }
+  .serviceByCategory {
+    padding: 65px 0px;
+  }
+  .CategoriesText {
+    text-align: center;
+  }
+  .CategoriesText h3 {
+    font-size: 36px;
+    line-height: 40px;
+  }
+  .serviceListText h4 {
+    font-size: 16px;
+  }
+  .serviceListText {
+    position: absolute;
+    top: 11px;
+    left: 10px;
+  }
+  /* ?Service By Category Responsive End  */
+
+  /* ?Banner Part Responsive Start  */
+  .lefside {
+    justify-content: center;
+  }
+  .forPadding {
+    padding-bottom: 67px;
+  }
+  .profileCard {
+    width: 100%;
+    margin-top: 20px;
+  }
+  /* ?Banner Part Responsive End  */
+
+  /* ?Banner Part Responsive Start  */
+  .workStart {
+    padding: 47px 4px;
+    border-radius: 24px;
+  }
+  .startBody h4 {
+    font-size: 29px;
+  }
+  /* ?Banner Part Responsive End  */
+
+  /* ?Footer Part Responsive Start  */
+
+  .footerCol {
+    text-align: center;
+  }
+  .footerBox {
+    padding: 54px 0;
+    border-bottom: 1px solid #414e62;
+  }
+  .forColor {
+    margin-top: 50px;
+  }
+  /* ?Footer Part Responsive End  */
+  /* ?Footer Bottom Responsive Start  */
+  .footerBottom {
+    grid-template-columns: 1fr; /* সবগুলো ১ কলামে */
+    text-align: center;
+    justify-items: center;
+  }
+  .socials {
+    justify-content: center; /* সোশ্যাল আইকনগুলো সেন্টারে */
+  }
+  .copyRight p {
+    font-size: 14px;
+    margin: 10px 0;
+  }
+
+  /* ?Footer Bottom Part Responsive End  */
+}
+
+/*? Extra small devices (portrait phones, less than 576px) */
+@media (min-width: 320px) and (max-width: 575.98px) {
+  /*? Navbar Responsive design start */
+  .navbar-toggler i {
+    color: green;
+    font-size: 30px;
+  }
+  .navbar-toggler i:active {
+    color: red;
+  }
+  .nav-link {
+    color: red;
+    margin: 0;
+    font-weight: bold;
+  }
+  /*? Navbar Responsive design End */
+
+  /* ?Banner Part Responsive Start  */
+  .bannerContent {
+    padding-top: 30px;
+  }
+  .textLeft {
+    width: auto;
+    text-align: center;
+  }
+  .textLeft h1 {
+    font-size: 37px;
+    line-height: 51px;
+    font-weight: bold;
+  }
+  .textLeft h6 {
+    font-size: 14px;
+  }
+  .textLeft a.button {
+    display: block;
+    margin-bottom: 10px;
+  }
+  .inputBox {
+    padding: 16px 0;
+  }
+  .formControl {
+    height: 52px;
+  }
+  .searchDiv {
+    width: 40px;
+    height: 40px;
+    right: 12px; /* একটু ভেতরে */
+  }
+  .forPosition {
+    font-size: 18px; /* আইকনও একটু ছোট হবে */
+  }
+  .imgPadding {
+    margin-top: 89px;
+  }
+  .bannerContent {
+    padding-bottom: 47px;
+  }
+  .imgOverlay {
+    top: 27%;
+    padding: 10px 23px;
+    width: 172px;
+  }
+
+  .imgOverlaySecond {
+    position: absolute;
+    top: 65%;
+    right: 0;
+  }
+  .imgOverlay h5 {
+    font-size: 10px;
+    font-weight: 600;
+    color: #242b36;
+  }
+
+  /* ?Banner Part Responsive End  */
+
+  /* ?Popular Categories Part Start  */
+  #PopularCategories {
+    padding-top: 43px;
+  }
+  .CategoriesText h3 {
+    color: #242b36;
+    font-size: 36px;
+    font-weight: 700;
+    padding-bottom: 0;
+  }
+  .CategoriesTextRight {
+    margin-top: 31px;
+  }
+  .listCatagory p,
+  h5 {
+    font-size: 18px;
+
+    line-height: 25px;
+  }
+  .listCatagory h4 {
+    font-size: 22px;
+  }
+  #servicePart {
+    margin-top: 93px;
+    padding: 39px 0;
+  }
+  .serviceFilterBtn {
+    margin-top: 20px;
+  }
+  .serviceHead h3 {
+    color: #242b36;
+    font-size: 39px;
+    font-weight: bold;
+  }
+  /*? Popular Categories Part Responsive Star */
+  .LatestJob {
+    padding-top: 47px;
+  }
+  .jobItem {
+    width: 393px;
+  }
+  /*? Letest Job part Responsive End  */
+
+  /* ?Hiring Best  Part Responsive Start  */
+  .hireSection {
+    margin: 57px 0;
+  }
+  .hire-left {
+    margin-top: 60px;
+  }
+  .hire-left h2 {
+    font-size: 40px;
+    text-align: center;
+    line-height: initial;
+  }
+  .hireRight {
+    margin-top: 33px;
+  }
+  /* ?Hiring Best  Part Responsive End  */
+
+  /* ?Freelancer thought Responsive Part Start */
+  .freelancerThought {
+    margin-top: 54px;
+    position: relative;
+  }
+  .sectionTitle {
+    width: 100%;
+  }
+  .sectionTitle h3 {
+    font-size: 41px;
+    line-height: 44px;
+    font-weight: bold;
+  }
+  .thoughtItem {
+    width: 100%;
+  }
+  .thoughtContent p {
+    font-size: 13px;
+  }
+  /* ?Freelancer thought Responsive Part End */
+
+  /* ?Advertise Part Responsive  Start  */
+  .forMargin {
+    margin-top: 90px;
+  }
+  .advertiseContent {
+    margin-top: 20px;
+  }
+  /* ?Advertise Part Responsive  End  */
+
+  /* ?Choose Plan Part Responsive Start  */
+  .choosePlanPart {
+    padding: 45px;
+  }
+  .planItem {
+    width: 100%;
+  }
+  .choosePlanPart {
+    padding: 0px;
+  }
+  .planTitle h3 {
+    padding-top: 20px;
+    font-size: 32px;
+    font-weight: bold;
+  }
+  .planItem {
+    margin-top: 37px;
+  }
+  /* ?Choose Plan  Part Responsive End  */
+
+  /* ?Service By Category Responsive Start  */
+  .serviceListItem {
+    width: 98%;
+    position: relative;
+  }
+  .serviceByCategory {
+    padding: 65px 0px;
+  }
+  .CategoriesText {
+    text-align: center;
+  }
+  .CategoriesText h3 {
+    font-size: 36px;
+    line-height: 40px;
+  }
+  .serviceListText h4 {
+    font-size: 16px;
+  }
+  .serviceListText {
+    position: absolute;
+    top: 11px;
+    left: 10px;
+  }
+  /* ?Service By Category Responsive End  */
+
+  /* ?Banner Part Responsive Start  */
+  .lefside {
+    justify-content: center;
+  }
+  .forPadding {
+    padding-bottom: 67px;
+  }
+  .profileCard {
+    width: 100%;
+    margin-top: 20px;
+  }
+  /* ?Banner Part Responsive End  */
+
+  /* ?Banner Part Responsive Start  */
+  .workStart {
+    padding: 47px 4px;
+    border-radius: 24px;
+  }
+  .startBody h4 {
+    font-size: 29px;
+  }
+  /* ?Banner Part Responsive End  */
+
+  /* ?Banner Part Responsive Start  */
+  .footerCol {
+    text-align: center;
+  }
+  .footerBox {
+    padding: 54px 0;
+    border-bottom: 1px solid #414e62;
+  }
+  .forColor {
+    margin: 0;
+  }
+  /* ?Banner Part Responsive End  */
+  /* ?Footer Bottom Responsive Start  */
+  .footerBottom {
+    grid-template-columns: 1fr; /* সবগুলো ১ কলামে */
+    text-align: center;
+    justify-items: center;
+  }
+  .socials {
+    justify-content: center; /* সোশ্যাল আইকনগুলো সেন্টারে */
+  }
+  .copyRight p {
+    font-size: 14px;
+    margin: 10px 0;
+  }
+  /* ?Footer Bottom Part Responsive End  */
+}
