@@ -56,9 +56,9 @@ $('.serviceSlickThree').slick({
   nextArrow: '<i class="fa-solid fa-arrow-right nextSecond thirdNext"></i>',
   responsive: [
     {
-      breakpoint: 1024,
+      breakpoint: 1000,
       settings: {
-        slidesToShow: 2,
+        slidesToShow: 3,
         slidesToScroll: 1,
         infinite: true,
       },

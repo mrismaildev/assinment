@@ -2,7 +2,305 @@
 /* @media (min-width: 1200px) { ... } */
 
 /*? Large devices (desktops, 992px and up) */
-/* @media (min-width: 992px) and (max-width: 1199.98px) { ... } */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /*? Navbar Responsive design start */
+  .nav-link { 
+    margin: 0;
+    font-size: 14px;
+  }
+  a.mcbFirst {
+	font-size: 12px;
+	padding: 6px 12px;
+} 
+ a.mCb {
+	font-size: 12px;
+	padding: 6px 12px;
+}
+  /*? Navbar Responsive design End */
+
+  /* ?Banner Part Responsive Start  */
+  .bannerContent {
+    padding-top: 30px;
+  }
+  .textLeft {
+    width: auto;
+    text-align: center;
+  }
+  .textLeft h1 {
+    font-size: 40px;
+    line-height: 51px;
+    font-weight: bold;
+  }
+  .textLeft h6 {
+    font-size: 14px;
+  }
+  .textLeft a.button {
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+  .inputBox {
+    padding: 16px 0;
+  }
+  /* .formControl {
+    height: 52px;
+  }
+  .searchDiv {
+    width: 40px;
+    height: 40px;
+    right: 12px; 
+  } */
+
+  .imgPadding {
+    margin-top: 89px;
+  }
+  .bannerContent {
+    padding-bottom: 47px;
+  }
+  .imgOverlay {
+    top: 27%;
+    padding: 10px 23px;
+    width: 172px;
+  }
+
+  .imgOverlaySecond {
+    position: absolute;
+    top: 65%;
+    right: 0;
+  }
+  .imgOverlay h5 {
+    font-size: 10px;
+    font-weight: 600;
+    color: #242b36;
+  }
+
+  /* ?Banner Part Responsive End  */
+
+  /* ?Popular Categories Part Start  */
+  #PopularCategories {
+    padding-top: 43px;
+  }
+
+  .CategoriesText h3 {
+	font-size: 30px;
+
+}
+ 
+  .CategoriesTextRight {
+    margin-top: 31px;
+  }
+  .listCatagory p,
+  h5 {
+    font-size: 12px;
+    line-height: 20px;
+  }
+.listCatagory h4 {
+	font-size: 13px;
+	line-height: 21px;
+}
+
+  /* ?Poppular Service Item Responsive Part start */
+  #servicePart {
+    margin-top: 93px;
+    padding: 39px 0;
+  }
+
+  .serviceFilterBtn {
+    margin-top: 20px;
+  }
+  .serviceHead h3 {
+    color: #242b36;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .serviceItem {
+    width:307px;
+    margin-top: 20px;
+  }
+  .servicetext h3 {
+    font-size: 13px;
+    line-height: 19px;
+  }
+  .review, span, a {
+	font-size: 12px;
+	color: #3b4759;
+}
+.profileLeft h3, h4 {
+	font-size: 14px;
+	
+}
+.profileLeft  h4 {
+	font-size: 9px;
+
+}
+
+  /* ?Service Item Responsive Part End */
+
+  /*?Letest Job Part Responsive Star */
+
+  .LatestJob {
+    padding-top: 47px;
+  }
+  .jobItem {
+	width: 297px;
+}
+.jobItem h4 {
+	font-size: 18px;
+}
+
+
+  /*? Letest Job part Responsive End  */
+
+
+
+
+
+  /* ?Hiring Best  Part Responsive Start  */
+    .backOverlay {
+	padding: 210px 0;
+
+}
+  .hireSection {
+    margin: 57px 0;
+  }
+  .hire-left {
+    margin-top: 48px;
+  }
+  .hire-left h2 {
+    font-size: 40px;
+    font-size: 25px;
+  }
+  .hireRight {
+    margin-top: 33px;
+  }
+  /* ?Hiring Best  Part Responsive End  */
+
+  /* ?Freelancer thought Responsive Part Start */
+
+  .freelancerThought {
+    margin-top: 54px;
+    position: relative;
+  }
+  .sectionTitle {
+    width: 100%;
+  }
+  .sectionTitle h3 {
+    font-size: 41px;
+    line-height: 44px;
+    font-weight: bold;
+  }
+  .thoughtItem {
+    width: 300px;
+  }
+  .thoughtContent p {
+    font-size: 13px;
+  }
+  /* ?Freelancer thought Responsive Part End */
+
+
+  /* ?Advertise Part Responsive  Start  */
+  .advertiseContent {
+    margin-top: 20px;
+  }
+  .forMargin {
+	margin-top: 100px;
+}
+  /* ?Advertise Part Responsive  End  */
+  /* ?Trending Service Responsive  */
+  
+.nextSecond {
+	width: 30px;
+	height: 30px;
+	right: 0;
+	font-size: 16px;
+	transition: 0.5s;
+}  
+.prevSeond {
+	width: 30px;
+	height: 30px;
+	right: 0;
+	font-size: 16px;
+	transition: 0.5s;
+}
+  /* ?Trending Service Responsive  */
+
+  /* ?Choose Plan Part Responsive Start  */
+
+  .choosePlanPart {
+    padding: 45px;
+  }
+  .planItem {
+    width: 100%;
+  }
+
+  /* ?Choose Plan  Part Responsive End  */
+  /*?Browsr By Catargory  start*/
+.serviceListItem {
+	width: 303px;
+
+}
+  .thirdPriv{
+    top: 50%;
+    left: 14px;
+     
+  }
+  .thirdNext{
+    top: 50%;
+    right: 22px;
+   
+  }
+  /*?Browsr By Catargory  End*/
+
+  /*  ?Top Rated Frilancer Responsive start */
+
+  .profileCard {
+	width: 313px;
+}
+.inProfile h3 {
+	font-size: 15px;;
+}
+.flexInfo span {
+	font-size: 13px;
+}
+.vettedPro {
+	font-size: 8px;
+	
+}
+.vettedPro::after {
+	right: 75px;
+}
+
+  /*  ?Top Rated Frilancer Responsive End */
+
+  /*?Start a work Responsive part  */
+  .workStart {
+	padding: 103px;
+
+}
+.startBody p{font-size: 15px
+}
+/* ?Footer Responsive Part Start  */
+.footerBox{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+
+}
+.subscribeForm input {
+	width: 213px;
+	padding: 12px;
+}
+.subscribeForm button {
+	width: 42px;
+	height: 46px;
+}
+/* ?Footer Responsive Part End  */
+
+
+
+}
+
+
+
+
 
 /*? Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) { 
